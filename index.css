@@ -1,0 +1,50 @@
+#quote-box {
+  background-color: #6bb77b;
+  border-radius: 5px;
+  padding: 20px;
+  padding-bottom: 3%;
+  max-width: 800px;
+}
+
+#quote {
+  padding-bottom: 2%;
+}
+
+#quote-text,
+#author-text {
+  color: #fff;
+}
+
+p {
+  color: #fff;
+  padding: 2%;
+  font-weight: 10;
+}
+
+#new-quote,
+#twitter-button,
+#mastodon-button {
+  background-color: #d76f30;
+  border: 1px solid gray;
+  color: #fff;
+}
+
+#twitter-icon,
+#mastodon-icon {
+  color: #fff;
+}
+
+#quote-left,
+#quote-right {
+  color: #fff;
+}
+
+#body {
+  background-color: #172d13;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  margin: auto;
+  padding: auto;
+}
+
+/*# sourceMappingURL=index.css.map */
