@@ -3,48 +3,52 @@
   border-radius: 5px;
   padding: 20px;
   padding-bottom: 3%;
-  max-width: 800px;
-}
+  max-width: 800px; }
 
 #quote {
-  padding-bottom: 2%;
-}
+  padding-bottom: 2%; }
 
 #quote-text,
 #author-text {
-  color: #fff;
-}
+  color: #fff; }
 
 p {
   color: #fff;
   padding: 2%;
-  font-weight: 10;
-}
+  font-weight: 10; }
 
 #new-quote,
 #twitter-button,
 #mastodon-button {
   background-color: #d76f30;
   border: 1px solid gray;
-  color: #fff;
-}
+  color: #fff; }
 
 #twitter-icon,
 #mastodon-icon {
-  color: #fff;
-}
+  color: #fff; }
 
 #quote-left,
 #quote-right {
-  color: #fff;
-}
+  color: #fff; }
 
 #body {
   background-color: #172d13;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: auto;
-}
+  animation: fade-in ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards; }
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(4px); }
+  100% {
+    opacity: 1;
+    transform: translateY(-4px); } }
 
 /*# sourceMappingURL=index.css.map */

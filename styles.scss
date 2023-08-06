@@ -49,6 +49,21 @@ p {
   background-color: $color-background;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: auto;
+  animation: fade-in ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-4px);
+  }
 }
